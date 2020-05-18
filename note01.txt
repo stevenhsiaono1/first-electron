@@ -1,0 +1,6 @@
+1. BrowserWindow > rederer process (創建窗口)
+2. 避免重開>  可安裝nodemon >> npm install nodemon --save-dev (開發用)
+3. 此時就可以將package.json >>
+  "scripts": {
+    "start": "electron ."   >> 改為 "nodemon --watch main.js --exec electron ."   (electron .不需要單引號)
+  },
