@@ -8,3 +8,8 @@
   如此只要main.js有修正就會自動執行(因watch main.js)
 4. BrowserWindow的API文件可以看:
 https://www.electronjs.org/docs/api/browser-window
+5. electron process之間的通訊方式> IPC (interprocess communication)和chromium完全一致
+6. 測試通訊:
+   如註解
+
+7. 開始撰寫撥放器
